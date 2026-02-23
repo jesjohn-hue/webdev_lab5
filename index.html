@@ -9,20 +9,19 @@
   <form action="http://bloomingdale.sat.iit.edu/kriedan/lab3formscript.php" method="post">
     <fieldset>
       <legend>My Info</legend>
-      <div><label>first name: <input size="100" type="text" name="first_name_field" required></label></div>
-      <div><label>last name: <input size="100" type="text" name="last_name_field" required></label></div>
-      <div><label>phone: <input size="100" type="tel" name="phone_field" required></label></div>
-      <div><label>email: <input size="100" type="email" name="email_field" required></label></div>
+      <div><label>first name: <input size="100" type="text" name="first_name_field"></label></div>
+      <div><label>last name: <input size="100" type="text" name="last_name_field"></label></div>
+      <div><label>phone: <input size="100" type="text" name="phone_field"></label></div>
+      <div><label>email: <input size="100" type="text" name="email_field"></label></div>
       <div>Gender: </div>
       <div>
-        <label>Male <input type="radio" name="gender_field" value="male" required></label>
+        <label>Male <input type="radio" name="gender_field" value="male"></label>
         <label>Female <input type="radio" name="gender_field" value="female"></label>
       </div>
       <div>Age: </div>
-      <select name="age_field" required>
-        <option value="" selected disabled>Select one</option>
-        <option value="under 18">under 18</option>
-        <option value="over 18">over 18</option>
+      <select name="age_field">
+        <option>under 18</option>
+        <option>over 18</option>
       </select>
     </fieldset>
     <fieldset>
@@ -37,11 +36,11 @@
         <div><label>Friday <input type="checkbox" name="available_field[]" value="friday"></label></div>
         <div><label>Saturday <input type="checkbox" name="available_field[]" value="saturday"></label></div>
         <h3>Comments</h3>
-        <textarea name="comments_field" required></textarea>
+        <textarea name="comments_field"></textarea>
       </div>
     </fieldset>
-    <input type="hidden" name="hidden_field" value="Jes John Tetedje">
-    <input type="submit" value="Submit">
+    <input type="hidden" name="hidden_field" value="Jes John">
+    <input type="submit">
   </form>
 </body>
 </html>
